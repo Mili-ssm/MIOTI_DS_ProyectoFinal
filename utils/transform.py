@@ -1,15 +1,7 @@
-import json
-import math
-import os
-from dataclasses import asdict, dataclass
-from enum import auto
-from functools import lru_cache
-from typing import Self
+from enum import IntEnum, auto
 
 import numpy as np
 import polars as pl
-from geopy.geocoders import Nominatim
-from zmq import IntEnum
 
 type DataFrame = pl.DataFrame | pl.LazyFrame
 
@@ -113,92 +105,3 @@ def date_to_cyclic(
         new_data = cyclic_transform(new_data, column + "_month_of_year", 12, fill_nan=fill_nan)
 
     return new_data.drop(column).collect()
-
-
-conector = Nominatim(user_agent="buscador_de_ubicaciones_v1")
-
-__cache__ = {}
-
-
-@dataclass
-class GeoPoint:
-    latitude: float | None
-    longitude: float | None
-
-    @classmethod  # type: ignore
-    @lru_cache(maxsize=128)
-    def get_geopoint(cls, *addres: str, cache_file: str = "./geopoints.json") -> Self:
-        global __cache__
-        full_addres = " ".join(addres)
-
-        if not __cache__:
-            if os.path.exists(cache_file):
-                with open(cache_file, encoding="utf-8") as f:
-                    __cache__ = json.load(f)
-                    cache = __cache__
-            else:
-                cache = {}
-        else:
-            cache = __cache__
-
-        value = cache.get(full_addres)
-
-        if value is None:
-            return cls(latitude=None, longitude=None)
-
-        return cls(
-            latitude=float(value["latitude"]),
-            longitude=float(value["longitude"]),
-        )
-
-        location = conector.geocode(full_addres)  # type: ignore
-        if location is not None:
-            lat_rad = math.radians(location.latitude)
-            lon_rad = math.radians(location.longitude)
-        else:
-            lat_rad = 0
-            lon_rad = 0
-
-        geo_point = cls(
-            latitude=lat_rad,
-            longitude=lon_rad,
-        )
-
-        cache[full_addres] = asdict(geo_point)
-
-        with open(cache_file, mode="w", encoding="utf-8") as f:
-            json.dump(cache, f, ensure_ascii=False, indent=4)
-
-        return geo_point
-
-
-def location_to_cyclic(
-    data: pl.DataFrame,
-    column: str,
-    *pre_fix: str,
-    fill_nan: bool = True,
-) -> pl.DataFrame:
-    """Transform a location column to a cyclic representation."""
-    new_data = data.lazy().with_columns(
-        pl.col(column)
-        .map_elements(
-            lambda x: GeoPoint.get_geopoint(*pre_fix, x).latitude, return_dtype=pl.Float64
-        )
-        .alias(column + "_lat"),
-        pl.col(column)
-        .map_elements(
-            lambda x: GeoPoint.get_geopoint(*pre_fix, x).longitude, return_dtype=pl.Float64
-        )
-        .alias(column + "_lon"),
-    )
-
-    new_data = cyclic_transform_rads(new_data, column + "_lat", fill_nan=fill_nan)
-    new_data = cyclic_transform_rads(new_data, column + "_lon", fill_nan=fill_nan)
-
-    return new_data.drop(column).collect()
-
-
-def int_to_cp(txt: str) -> str:
-    while len(txt) < 5:
-        txt = "0" + txt
-    return txt
