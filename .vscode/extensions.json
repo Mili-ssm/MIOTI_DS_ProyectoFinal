@@ -3,6 +3,7 @@
         "charliermarsh.ruff",
         "ms-python.vscode-pylance",
         "ms-python.python",
-        "mechatroner.rainbow-csv"
+        "mechatroner.rainbow-csv",
+        "ms-toolsai.datawrangler"
     ]
 }
