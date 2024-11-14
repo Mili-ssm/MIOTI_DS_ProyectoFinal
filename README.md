@@ -24,8 +24,16 @@ Proyecto final del Master en Data Science de MIOTI
     ```
 
 
-## Installation
+## Manage Libs
 
-```bash
-    uv sync --dev
-```
+- **Install all Libs**
+
+    ```bash
+        uv sync --dev
+    ```
+
+- **Add new Libs**
+
+    ```bash
+        uv add "lib_name1" "lib_name2" ...
+    ```
