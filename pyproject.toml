@@ -1,110 +1,110 @@
 [project]
-    description = "Add your description here"
-    name = "MIOTI_DS_ProyectoFinal"
-    readme = "README.md"
-    requires-python = ">=3.12"
-    version = "0.1.0"
+description = "Add your description here"
+name = "MIOTI_DS_ProyectoFinal"
+readme = "README.md"
+requires-python = ">=3.12"
+version = "0.1.0"
 
-    dependencies = [
-        "altair>=5.4.1",
-        "fastexcel>=0.11.6",
-        "ipywidgets>=8.1.5",
-        "notebook>=7.2.2",
-        "openpyxl>=3.1.5",
-        "polars>=1.7.1",
-        "pretty-confusion-matrix>=0.6.0",
-        "pyarrow>=17.0.0",
-        "scikit-learn>=1.5.2",
-        "seaborn>=0.13.2",
-        "tqdm>=4.64.1",
-        "xgboost>=2.1.1",
+dependencies = [
+    "altair>=5.4.1",
+    "fastexcel>=0.11.6",
+    "ipywidgets>=8.1.5",
+    "notebook>=7.2.2",
+    "openpyxl>=3.1.5",
+    "polars>=1.7.1",
+    "pretty-confusion-matrix>=0.6.0",
+    "pyarrow>=17.0.0",
+    "scikit-learn>=1.5.2",
+    "seaborn>=0.13.2",
+    "tqdm>=4.64.1",
+    "ipykernel>=6.29.5",
+    "xgboost>=2.1.1",
 ]
 
 
 [tool.uv]
-    dev-dependencies = [
-        "ipykernel>=6.29.5",
-        "notebook>=7.2.2",
-        "pre-commit>=3.8.0",
-        "pyright>=1.1.377",
-        "ruff>=0.6.1",
+dev-dependencies = [
+    "notebook>=7.2.2",
+    "pre-commit>=3.8.0",
+    "pyright>=1.1.377",
+    "ruff>=0.6.1",
 ]
 
 
 [tool.ruff]
-    fix = true
-    indent-width = 4
-    line-length = 100
-    preview = true
-    show-fixes = true
+fix = true
+indent-width = 4
+line-length = 100
+preview = true
+show-fixes = true
 
-    [tool.ruff.format]
-        docstring-code-format = true # Enable reformatting of code snippets in docstrings.
+[tool.ruff.format]
+docstring-code-format = true # Enable reformatting of code snippets in docstrings.
 
-    [tool.ruff.lint]
-        allowed-confusables = ['´']
-        extend-select = [
-            "A",     # Shadowing rules.
-            "ASYNC", # Async rules.
-            "C4",    # Comprenhension rules. (dicts, lists, sets, etc.)
-            "C90",   # Cyclomatic complexity rules.
-            "D201",  # Docstring rules. -> No blank line before function.
-            "D202",  # Docstring rules. -> No blank line after function.
-            "D204",  # Docstring rules. -> 1 blank line after class docstring.
-            "I",     # Import rules.
-            "ISC",   # String concatenation rules.
-            "LOG",   # Logging rules.
-            "N",     # Naming rules.
-            "PERF",  # Performance rules.
-            "PIE",   # Unnecessary practices rules.
-            "PL",    # Pylint rules.
-            "PYI",   # Pyi rules.
-            "RET",   # Return rules.
-            "RUF",   # Ruff rules.
-            "TCH",   # Type checking rules.
-            "TID",   # Tidy imports rules.
-            "UP",    # Unittest rules.
-        ]
+[tool.ruff.lint]
+allowed-confusables = ['´']
+extend-select = [
+    "A",     # Shadowing rules.
+    "ASYNC", # Async rules.
+    "C4",    # Comprenhension rules. (dicts, lists, sets, etc.)
+    "C90",   # Cyclomatic complexity rules.
+    "D201",  # Docstring rules. -> No blank line before function.
+    "D202",  # Docstring rules. -> No blank line after function.
+    "D204",  # Docstring rules. -> 1 blank line after class docstring.
+    "I",     # Import rules.
+    "ISC",   # String concatenation rules.
+    "LOG",   # Logging rules.
+    "N",     # Naming rules.
+    "PERF",  # Performance rules.
+    "PIE",   # Unnecessary practices rules.
+    "PL",    # Pylint rules.
+    "PYI",   # Pyi rules.
+    "RET",   # Return rules.
+    "RUF",   # Ruff rules.
+    "TCH",   # Type checking rules.
+    "TID",   # Tidy imports rules.
+    "UP",    # Unittest rules.
+]
 
-        ignore = [
-            "D102",   # Missing docstring in public method.
-            "ISC001", # ESPECIAL: Avoid lint incompatible with Ruff.
-            "ISC002", # ESPECIAL: Avoid lint incompatible with Ruff.
-            "RUF029", # No async function without await.
-        ]
+ignore = [
+    "D102",   # Missing docstring in public method.
+    "ISC001", # ESPECIAL: Avoid lint incompatible with Ruff.
+    "ISC002", # ESPECIAL: Avoid lint incompatible with Ruff.
+    "RUF029", # No async function without await.
+]
 
-        task-tags = ["ERROR", "HACK", "TODO", "WARNING"]
+task-tags = ["ERROR", "HACK", "TODO", "WARNING"]
 
-        [tool.ruff.lint.flake8-type-checking]
-            strict = true
+[tool.ruff.lint.flake8-type-checking]
+strict = true
 
-        [tool.ruff.lint.flake8-unused-arguments]
-            ignore-variadic-names = true
+[tool.ruff.lint.flake8-unused-arguments]
+ignore-variadic-names = true
 
-        [tool.ruff.lint.mccabe]
-            max-complexity = 5 # Maximum Cyclomatic complexity.
+[tool.ruff.lint.mccabe]
+max-complexity = 5 # Maximum Cyclomatic complexity.
 
-        [tool.ruff.lint.pydocstyle]
-            convention = "google"
-            ignore-decorators = ["typing.overload"]
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+ignore-decorators = ["typing.overload"]
 
-        [tool.ruff.lint.flake8-tidy-imports]
-            ban-relative-imports = "all" # Disallow all relative imports.
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all" # Disallow all relative imports.
 
 [tool.pyright]
-    disableBytesTypePromotions = true
-    reportConstantRedefinition = "error"
-    reportImplicitOverride = "warning"
-    reportIncompatibleMethodOverride = "warning"
-    reportMatchNotExhaustive = "warning"
-    reportMissingImports = "error"
-    reportMissingModuleSource = "error"
-    reportUntypedBaseClass = "warning"
-    reportUntypedClassDecorator = "warning"
-    reportUntypedFunctionDecorator = "warning"
-    strictDictionaryInference = true
-    strictListInference = true
-    strictSetInference = true
-    typeCheckingMode = "standard"
-    venv = ".venv"
-    venvPath = "."
+disableBytesTypePromotions = true
+reportConstantRedefinition = "error"
+reportImplicitOverride = "warning"
+reportIncompatibleMethodOverride = "warning"
+reportMatchNotExhaustive = "warning"
+reportMissingImports = "error"
+reportMissingModuleSource = "error"
+reportUntypedBaseClass = "warning"
+reportUntypedClassDecorator = "warning"
+reportUntypedFunctionDecorator = "warning"
+strictDictionaryInference = true
+strictListInference = true
+strictSetInference = true
+typeCheckingMode = "standard"
+venv = ".venv"
+venvPath = "."
