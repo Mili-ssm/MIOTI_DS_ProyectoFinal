@@ -957,6 +957,7 @@ dependencies = [
     { name = "notebook" },
     { name = "openpyxl" },
     { name = "polars" },
+    { name = "pretty-confusion-matrix" },
     { name = "pyarrow" },
     { name = "scikit-learn" },
     { name = "seaborn" },
@@ -981,6 +982,7 @@ requires-dist = [
     { name = "notebook", specifier = ">=7.2.2" },
     { name = "openpyxl", specifier = ">=3.1.5" },
     { name = "polars", specifier = ">=1.7.1" },
+    { name = "pretty-confusion-matrix", specifier = ">=0.6.0" },
     { name = "pyarrow", specifier = ">=17.0.0" },
     { name = "scikit-learn", specifier = ">=1.5.2" },
     { name = "seaborn", specifier = ">=0.13.2" },
@@ -1332,6 +1334,22 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/2e/c8/e22c292035f1bac8b9f5237a2622305bc0304e776080b246f3df57c4ff9f/pre_commit-4.0.1.tar.gz", hash = "sha256:80905ac375958c0444c65e9cebebd948b3cdb518f335a091a670a89d652139d2", size = 191678 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/16/8f/496e10d51edd6671ebe0432e33ff800aa86775d2d147ce7d43389324a525/pre_commit-4.0.1-py2.py3-none-any.whl", hash = "sha256:efde913840816312445dc98787724647c65473daefe420785f885e8ed9a06878", size = 218713 },
+]
+
+[[package]]
+name = "pretty-confusion-matrix"
+version = "0.6.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "scikit-learn" },
+    { name = "seaborn" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/6c/44/e55904d701f9ee633c4086455a1e56f182567107adb2af39e47049df986a/pretty_confusion_matrix-0.6.0.tar.gz", hash = "sha256:60dcd20760a6c1b9c64efffb0509f93f42149b7ba87963bb35c71df50c5cdd7c", size = 9959 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a3/a7/d1e1ed8b2f8ab003500c53726617c011dc22764236b36cad1126b5b86caf/pretty_confusion_matrix-0.6.0-py3-none-any.whl", hash = "sha256:79c8fff637379314061bb0145d762a61daf046bec57dab07c29f6aa2ef9ab2ea", size = 10821 },
 ]
 
 [[package]]
