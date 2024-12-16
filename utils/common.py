@@ -142,7 +142,7 @@ class CustomDataFrame:
         self,
         with_nulls: bool = True,
         show: bool = True,
-        size: float = 1.2,
+        size: float = 0.9,
         dpi=9,
         sub_sample: float = 1.0,
     ) -> pl.DataFrame:
@@ -211,8 +211,7 @@ class CustomDataFrame:
         print("----------------------\n")
 
         print(
-            "Columns to Drop due to Null Percentage "
-            f"| {thresshold=:.0%} |\n----------------------"
+            f"Columns to Drop due to Null Percentage | {thresshold=:.0%} |\n----------------------"
         )
 
         columns_to_drop: list[str] = new_nulls.filter(pl.col("Null_Percentage") > thresshold * 100)[
@@ -331,3 +330,5 @@ class CustomDataFrame:
     def __len__(self) -> int:
         """Get the length of the data frame."""
         return len(self.dataframe)
+
+

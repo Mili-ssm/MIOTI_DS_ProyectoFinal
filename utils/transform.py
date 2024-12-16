@@ -13,11 +13,10 @@ def cyclic_transform[T: DataFrame](
     fill_nan: bool = True,
 ) -> T:
     """Transform a column to a cyclic representation."""
-    pi_2 = 2 * np.pi
     col = pl.col(column)
     new_data = data.with_columns(
-        ((col * pi_2) / max_val).sin().alias(column + "_sin"),
-        ((col * pi_2) / max_val).cos().alias(column + "_cos"),
+        (2 * np.pi * (col / max_val)).sin().alias(column + "_sin"),
+        (2 * np.pi * (col / max_val)).cos().alias(column + "_cos"),
     )
 
     if fill_nan:
