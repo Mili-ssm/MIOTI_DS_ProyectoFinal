@@ -75,6 +75,9 @@ ignore = [
 
 task-tags = ["ERROR", "HACK", "TODO", "WARNING"]
 
+[tool.ruff.lint.per-file-ignores]
+"*.ipynb" = ["F401"]
+
 [tool.ruff.lint.flake8-type-checking]
 strict = true
 
