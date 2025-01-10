@@ -1,0 +1,171 @@
+Variable 1,Variable 2,Correlación,Descripción 1,Descripción 2
+BIA-BIA_FFM,BIA-BIA_BMR,0.9999999999968424,Fat-Free Mass (Masa Libre de Grasa),Basal Metabolic Rate (Tasa Metabólica Basal)
+BIA-BIA_BMR,BIA-BIA_FFM,0.9999999999968424,Basal Metabolic Rate (Tasa Metabólica Basal),Fat-Free Mass (Masa Libre de Grasa)
+BIA-BIA_TBW,BIA-BIA_BMR,0.9996028703354595,Total Body Water (Agua Corporal Total),Basal Metabolic Rate (Tasa Metabólica Basal)
+BIA-BIA_BMR,BIA-BIA_TBW,0.9996028703354595,Basal Metabolic Rate (Tasa Metabólica Basal),Total Body Water (Agua Corporal Total)
+BIA-BIA_FFM,BIA-BIA_TBW,0.9996028591314792,Fat-Free Mass (Masa Libre de Grasa),Total Body Water (Agua Corporal Total)
+BIA-BIA_TBW,BIA-BIA_FFM,0.9996028591314792,Total Body Water (Agua Corporal Total),Fat-Free Mass (Masa Libre de Grasa)
+BIA-BIA_FFM,BIA-BIA_ECW,0.9991203994248352,Fat-Free Mass (Masa Libre de Grasa),Extracellular Water (Agua Extracelular)
+BIA-BIA_ECW,BIA-BIA_FFM,0.9991203994248352,Extracellular Water (Agua Extracelular),Fat-Free Mass (Masa Libre de Grasa)
+BIA-BIA_BMR,BIA-BIA_ECW,0.9991203982374887,Basal Metabolic Rate (Tasa Metabólica Basal),Extracellular Water (Agua Extracelular)
+BIA-BIA_ECW,BIA-BIA_BMR,0.9991203982374887,Extracellular Water (Agua Extracelular),Basal Metabolic Rate (Tasa Metabólica Basal)
+BIA-BIA_TBW,BIA-BIA_ECW,0.9989565480805731,Total Body Water (Agua Corporal Total),Extracellular Water (Agua Extracelular)
+BIA-BIA_ECW,BIA-BIA_TBW,0.9989565480805731,Extracellular Water (Agua Extracelular),Total Body Water (Agua Corporal Total)
+BIA-BIA_FFM,BIA-BIA_LDM,0.9986212001064763,Fat-Free Mass (Masa Libre de Grasa),Lean Dry Mass (Masa Magra Seca)
+BIA-BIA_LDM,BIA-BIA_FFM,0.9986212001064763,Lean Dry Mass (Masa Magra Seca),Fat-Free Mass (Masa Libre de Grasa)
+BIA-BIA_LDM,BIA-BIA_BMR,0.9986211720727859,Lean Dry Mass (Masa Magra Seca),Basal Metabolic Rate (Tasa Metabólica Basal)
+BIA-BIA_BMR,BIA-BIA_LDM,0.9986211720727859,Basal Metabolic Rate (Tasa Metabólica Basal),Lean Dry Mass (Masa Magra Seca)
+BIA-BIA_ICW,BIA-BIA_TBW,0.9982221351330677,Intracellular Water (Agua Intracelular),Total Body Water (Agua Corporal Total)
+BIA-BIA_TBW,BIA-BIA_ICW,0.9982221351330677,Total Body Water (Agua Corporal Total),Intracellular Water (Agua Intracelular)
+BIA-BIA_ECW,BIA-BIA_LDM,0.99730846292978,Extracellular Water (Agua Extracelular),Lean Dry Mass (Masa Magra Seca)
+BIA-BIA_LDM,BIA-BIA_ECW,0.99730846292978,Lean Dry Mass (Masa Magra Seca),Extracellular Water (Agua Extracelular)
+BIA-BIA_ICW,BIA-BIA_BMR,0.9970877665190905,Intracellular Water (Agua Intracelular),Basal Metabolic Rate (Tasa Metabólica Basal)
+BIA-BIA_BMR,BIA-BIA_ICW,0.9970877665190905,Basal Metabolic Rate (Tasa Metabólica Basal),Intracellular Water (Agua Intracelular)
+BIA-BIA_ICW,BIA-BIA_FFM,0.9970877340298814,Intracellular Water (Agua Intracelular),Fat-Free Mass (Masa Libre de Grasa)
+BIA-BIA_FFM,BIA-BIA_ICW,0.9970877340298814,Fat-Free Mass (Masa Libre de Grasa),Intracellular Water (Agua Intracelular)
+BIA-BIA_LDM,BIA-BIA_TBW,0.9967487395836737,Lean Dry Mass (Masa Magra Seca),Total Body Water (Agua Corporal Total)
+BIA-BIA_TBW,BIA-BIA_LDM,0.9967487395836737,Total Body Water (Agua Corporal Total),Lean Dry Mass (Masa Magra Seca)
+BIA-BIA_SMM,BIA-BIA_ICW,0.9967000176338788,Skeletal Muscle Mass (Masa Muscular Esquelética),Intracellular Water (Agua Intracelular)
+BIA-BIA_ICW,BIA-BIA_SMM,0.9967000176338788,Intracellular Water (Agua Intracelular),Skeletal Muscle Mass (Masa Muscular Esquelética)
+BIA-BIA_LST,BIA-BIA_ICW,0.9962126243277878,Lean Soft Tissue (Tejido Magro Blando),Intracellular Water (Agua Intracelular)
+BIA-BIA_ICW,BIA-BIA_LST,0.9962126243277878,Intracellular Water (Agua Intracelular),Lean Soft Tissue (Tejido Magro Blando)
+SDS-SDS_Total_Raw,SDS-SDS_Total_T,0.9950023043262128,Total Sleep Disturbance Scale (Puntuación Bruta),SDS-SDS_Total_T
+SDS-SDS_Total_T,SDS-SDS_Total_Raw,0.9950023043262128,SDS-SDS_Total_T,Total Sleep Disturbance Scale (Puntuación Bruta)
+BIA-BIA_ECW,BIA-BIA_ICW,0.9944608751788856,Extracellular Water (Agua Extracelular),Intracellular Water (Agua Intracelular)
+BIA-BIA_ICW,BIA-BIA_ECW,0.9944608751788856,Intracellular Water (Agua Intracelular),Extracellular Water (Agua Extracelular)
+BIA-BIA_TBW,BIA-BIA_LST,0.9943287474837613,Total Body Water (Agua Corporal Total),Lean Soft Tissue (Tejido Magro Blando)
+BIA-BIA_LST,BIA-BIA_TBW,0.9943287474837613,Lean Soft Tissue (Tejido Magro Blando),Total Body Water (Agua Corporal Total)
+BIA-BIA_SMM,BIA-BIA_LST,0.9939641557753722,Skeletal Muscle Mass (Masa Muscular Esquelética),Lean Soft Tissue (Tejido Magro Blando)
+BIA-BIA_LST,BIA-BIA_SMM,0.9939641557753722,Lean Soft Tissue (Tejido Magro Blando),Skeletal Muscle Mass (Masa Muscular Esquelética)
+BIA-BIA_BMC,BIA-BIA_LDM,0.9935999655009672,Bone Mineral Content (Contenido Mineral Óseo),Lean Dry Mass (Masa Magra Seca)
+BIA-BIA_LDM,BIA-BIA_BMC,0.9935999655009672,Lean Dry Mass (Masa Magra Seca),Bone Mineral Content (Contenido Mineral Óseo)
+BIA-BIA_SMM,BIA-BIA_TBW,0.9934264106955983,Skeletal Muscle Mass (Masa Muscular Esquelética),Total Body Water (Agua Corporal Total)
+BIA-BIA_TBW,BIA-BIA_SMM,0.9934264106955983,Total Body Water (Agua Corporal Total),Skeletal Muscle Mass (Masa Muscular Esquelética)
+BIA-BIA_DEE,BIA-BIA_TBW,0.9933724304294244,Daily Energy Expenditure (Gasto Energético Diario),Total Body Water (Agua Corporal Total)
+BIA-BIA_TBW,BIA-BIA_DEE,0.9933724304294244,Total Body Water (Agua Corporal Total),Daily Energy Expenditure (Gasto Energético Diario)
+BIA-BIA_DEE,BIA-BIA_BMR,0.9931151807969574,Daily Energy Expenditure (Gasto Energético Diario),Basal Metabolic Rate (Tasa Metabólica Basal)
+BIA-BIA_BMR,BIA-BIA_DEE,0.9931151807969574,Basal Metabolic Rate (Tasa Metabólica Basal),Daily Energy Expenditure (Gasto Energético Diario)
+BIA-BIA_DEE,BIA-BIA_FFM,0.9931151707846992,Daily Energy Expenditure (Gasto Energético Diario),Fat-Free Mass (Masa Libre de Grasa)
+BIA-BIA_FFM,BIA-BIA_DEE,0.9931151707846992,Fat-Free Mass (Masa Libre de Grasa),Daily Energy Expenditure (Gasto Energético Diario)
+BIA-BIA_ICW,BIA-BIA_DEE,0.9929162719647859,Intracellular Water (Agua Intracelular),Daily Energy Expenditure (Gasto Energético Diario)
+BIA-BIA_DEE,BIA-BIA_ICW,0.9929162719647859,Daily Energy Expenditure (Gasto Energético Diario),Intracellular Water (Agua Intracelular)
+BIA-BIA_ICW,BIA-BIA_LDM,0.9928615843259838,Intracellular Water (Agua Intracelular),Lean Dry Mass (Masa Magra Seca)
+BIA-BIA_LDM,BIA-BIA_ICW,0.9928615843259838,Lean Dry Mass (Masa Magra Seca),Intracellular Water (Agua Intracelular)
+BIA-BIA_SMM,BIA-BIA_BMR,0.9922231669742865,Skeletal Muscle Mass (Masa Muscular Esquelética),Basal Metabolic Rate (Tasa Metabólica Basal)
+BIA-BIA_BMR,BIA-BIA_SMM,0.9922231669742865,Basal Metabolic Rate (Tasa Metabólica Basal),Skeletal Muscle Mass (Masa Muscular Esquelética)
+BIA-BIA_SMM,BIA-BIA_FFM,0.9922231123679969,Skeletal Muscle Mass (Masa Muscular Esquelética),Fat-Free Mass (Masa Libre de Grasa)
+BIA-BIA_FFM,BIA-BIA_SMM,0.9922231123679969,Fat-Free Mass (Masa Libre de Grasa),Skeletal Muscle Mass (Masa Muscular Esquelética)
+BIA-BIA_BMR,BIA-BIA_LST,0.9919474912267917,Basal Metabolic Rate (Tasa Metabólica Basal),Lean Soft Tissue (Tejido Magro Blando)
+BIA-BIA_LST,BIA-BIA_BMR,0.9919474912267917,Lean Soft Tissue (Tejido Magro Blando),Basal Metabolic Rate (Tasa Metabólica Basal)
+BIA-BIA_FFM,BIA-BIA_LST,0.9919474229729307,Fat-Free Mass (Masa Libre de Grasa),Lean Soft Tissue (Tejido Magro Blando)
+BIA-BIA_LST,BIA-BIA_FFM,0.9919474229729307,Lean Soft Tissue (Tejido Magro Blando),Fat-Free Mass (Masa Libre de Grasa)
+BIA-BIA_ECW,BIA-BIA_DEE,0.991331608676142,Extracellular Water (Agua Extracelular),Daily Energy Expenditure (Gasto Energético Diario)
+BIA-BIA_DEE,BIA-BIA_ECW,0.991331608676142,Daily Energy Expenditure (Gasto Energético Diario),Extracellular Water (Agua Extracelular)
+BIA-BIA_LDM,BIA-BIA_DEE,0.9905287185112926,Lean Dry Mass (Masa Magra Seca),Daily Energy Expenditure (Gasto Energético Diario)
+BIA-BIA_DEE,BIA-BIA_LDM,0.9905287185112926,Daily Energy Expenditure (Gasto Energético Diario),Lean Dry Mass (Masa Magra Seca)
+BIA-BIA_LST,BIA-BIA_ECW,0.9905205647945697,Lean Soft Tissue (Tejido Magro Blando),Extracellular Water (Agua Extracelular)
+BIA-BIA_ECW,BIA-BIA_LST,0.9905205647945697,Extracellular Water (Agua Extracelular),Lean Soft Tissue (Tejido Magro Blando)
+BIA-BIA_BMC,BIA-BIA_FFM,0.9888652375788718,Bone Mineral Content (Contenido Mineral Óseo),Fat-Free Mass (Masa Libre de Grasa)
+BIA-BIA_FFM,BIA-BIA_BMC,0.9888652375788718,Fat-Free Mass (Masa Libre de Grasa),Bone Mineral Content (Contenido Mineral Óseo)
+BIA-BIA_BMR,BIA-BIA_BMC,0.9888651595632255,Basal Metabolic Rate (Tasa Metabólica Basal),Bone Mineral Content (Contenido Mineral Óseo)
+BIA-BIA_BMC,BIA-BIA_BMR,0.9888651595632255,Bone Mineral Content (Contenido Mineral Óseo),Basal Metabolic Rate (Tasa Metabólica Basal)
+BIA-BIA_LST,BIA-BIA_DEE,0.9888367537690171,Lean Soft Tissue (Tejido Magro Blando),Daily Energy Expenditure (Gasto Energético Diario)
+BIA-BIA_DEE,BIA-BIA_LST,0.9888367537690171,Daily Energy Expenditure (Gasto Energético Diario),Lean Soft Tissue (Tejido Magro Blando)
+BIA-BIA_BMC,BIA-BIA_ECW,0.988649094094196,Bone Mineral Content (Contenido Mineral Óseo),Extracellular Water (Agua Extracelular)
+BIA-BIA_ECW,BIA-BIA_BMC,0.988649094094196,Extracellular Water (Agua Extracelular),Bone Mineral Content (Contenido Mineral Óseo)
+BIA-BIA_ECW,BIA-BIA_SMM,0.9885365120562134,Extracellular Water (Agua Extracelular),Skeletal Muscle Mass (Masa Muscular Esquelética)
+BIA-BIA_SMM,BIA-BIA_ECW,0.9885365120562134,Skeletal Muscle Mass (Masa Muscular Esquelética),Extracellular Water (Agua Extracelular)
+BIA-BIA_LDM,BIA-BIA_SMM,0.9878636460045755,Lean Dry Mass (Masa Magra Seca),Skeletal Muscle Mass (Masa Muscular Esquelética)
+BIA-BIA_SMM,BIA-BIA_LDM,0.9878636460045755,Skeletal Muscle Mass (Masa Muscular Esquelética),Lean Dry Mass (Masa Magra Seca)
+BIA-BIA_SMM,BIA-BIA_DEE,0.987790479614034,Skeletal Muscle Mass (Masa Muscular Esquelética),Daily Energy Expenditure (Gasto Energético Diario)
+BIA-BIA_DEE,BIA-BIA_SMM,0.987790479614034,Daily Energy Expenditure (Gasto Energético Diario),Skeletal Muscle Mass (Masa Muscular Esquelética)
+BIA-BIA_LDM,BIA-BIA_LST,0.9853869395961289,Lean Dry Mass (Masa Magra Seca),Lean Soft Tissue (Tejido Magro Blando)
+BIA-BIA_LST,BIA-BIA_LDM,0.9853869395961289,Lean Soft Tissue (Tejido Magro Blando),Lean Dry Mass (Masa Magra Seca)
+BIA-BIA_TBW,BIA-BIA_BMC,0.9852112678653825,Total Body Water (Agua Corporal Total),Bone Mineral Content (Contenido Mineral Óseo)
+BIA-BIA_BMC,BIA-BIA_TBW,0.9852112678653825,Bone Mineral Content (Contenido Mineral Óseo),Total Body Water (Agua Corporal Total)
+BIA-BIA_BMC,BIA-BIA_DEE,0.9776870791217096,Bone Mineral Content (Contenido Mineral Óseo),Daily Energy Expenditure (Gasto Energético Diario)
+BIA-BIA_DEE,BIA-BIA_BMC,0.9776870791217096,Daily Energy Expenditure (Gasto Energético Diario),Bone Mineral Content (Contenido Mineral Óseo)
+BIA-BIA_ICW,BIA-BIA_BMC,0.9775784677319939,Intracellular Water (Agua Intracelular),Bone Mineral Content (Contenido Mineral Óseo)
+BIA-BIA_BMC,BIA-BIA_ICW,0.9775784677319939,Bone Mineral Content (Contenido Mineral Óseo),Intracellular Water (Agua Intracelular)
+BIA-BIA_BMC,BIA-BIA_SMM,0.9697415244404551,Bone Mineral Content (Contenido Mineral Óseo),Skeletal Muscle Mass (Masa Muscular Esquelética)
+BIA-BIA_SMM,BIA-BIA_BMC,0.9697415244404551,Skeletal Muscle Mass (Masa Muscular Esquelética),Bone Mineral Content (Contenido Mineral Óseo)
+BIA-BIA_LST,BIA-BIA_BMC,0.962055524819563,Lean Soft Tissue (Tejido Magro Blando),Bone Mineral Content (Contenido Mineral Óseo)
+BIA-BIA_BMC,BIA-BIA_LST,0.962055524819563,Bone Mineral Content (Contenido Mineral Óseo),Lean Soft Tissue (Tejido Magro Blando)
+FGC-FGC_SRL,FGC-FGC_SRR,0.9134025781150192,FGC-FGC_SRL,FGC-FGC_SRR
+FGC-FGC_SRR,FGC-FGC_SRL,0.9134025781150192,FGC-FGC_SRR,FGC-FGC_SRL
+Basic_Demos-Enroll_Season_Winter,PreInt_EduHx-Season_Winter,0.9001786126092617,Basic_Demos-Enroll_Season_Winter,PreInt_EduHx-Season_Winter
+PreInt_EduHx-Season_Winter,Basic_Demos-Enroll_Season_Winter,0.9001786126092617,PreInt_EduHx-Season_Winter,Basic_Demos-Enroll_Season_Winter
+Physical-Weight,Physical-BMI,0.8458236168267869,Physical-Weight,Índice de Masa Corporal (BMI)
+Physical-BMI,Physical-Weight,0.8458236168267869,Índice de Masa Corporal (BMI),Physical-Weight
+Basic_Demos-Enroll_Season_Summer,PreInt_EduHx-Season_Summer,0.8298175783878344,Basic_Demos-Enroll_Season_Summer,PreInt_EduHx-Season_Summer
+PreInt_EduHx-Season_Summer,Basic_Demos-Enroll_Season_Summer,0.8298175783878344,PreInt_EduHx-Season_Summer,Basic_Demos-Enroll_Season_Summer
+FGC-FGC_SRL_Zone,FGC-FGC_SRR_Zone,0.8251672536183345,Zona FitnessGram Shoulder Reach Left,FGC-FGC_SRR_Zone
+FGC-FGC_SRR_Zone,FGC-FGC_SRL_Zone,0.8251672536183345,FGC-FGC_SRR_Zone,Zona FitnessGram Shoulder Reach Left
+Physical-Weight,Physical-Height,0.8064337336417832,Physical-Weight,Physical-Height
+Physical-Height,Physical-Weight,0.8064337336417832,Physical-Height,Physical-Weight
+Basic_Demos-Enroll_Season_Spring,PreInt_EduHx-Season_Spring,0.7920571381568616,Basic_Demos-Enroll_Season_Spring,Estación del año: Primavera
+PreInt_EduHx-Season_Spring,Basic_Demos-Enroll_Season_Spring,0.7920571381568616,Estación del año: Primavera,Basic_Demos-Enroll_Season_Spring
+Physical-Height,Basic_Demos-Age,0.7566022152110679,Physical-Height,Edad del participante
+Basic_Demos-Age,Physical-Height,0.7566022152110679,Edad del participante,Physical-Height
+BIA-BIA_BMI,Physical-BMI,0.7526542000861689,BIA-BIA_BMI,Índice de Masa Corporal (BMI)
+Physical-BMI,BIA-BIA_BMI,0.7526542000861689,Índice de Masa Corporal (BMI),BIA-BIA_BMI
+Physical-Season_Winter,FGC-Season_Winter,0.7169124012450802,Actividad física en invierno,FGC-Season_Winter
+FGC-Season_Winter,Physical-Season_Winter,0.7169124012450802,FGC-Season_Winter,Actividad física en invierno
+FGC-Season_Summer,Physical-Season_Summer,0.714733622398127,FGC-Season_Summer,Physical-Season_Summer
+Physical-Season_Summer,FGC-Season_Summer,0.714733622398127,Physical-Season_Summer,FGC-Season_Summer
+FGC-FGC_PU_Zone,FGC-FGC_PU,0.7143207122102144,Zona FitnessGram Push-Up,FitnessGram Push-Up (Flexiones)
+FGC-FGC_PU,FGC-FGC_PU_Zone,0.7143207122102144,FitnessGram Push-Up (Flexiones),Zona FitnessGram Push-Up
+FGC-FGC_SRL_Zone,FGC-FGC_SRL,0.6828632101824763,Zona FitnessGram Shoulder Reach Left,FGC-FGC_SRL
+FGC-FGC_SRL,FGC-FGC_SRL_Zone,0.6828632101824763,FGC-FGC_SRL,Zona FitnessGram Shoulder Reach Left
+FGC-FGC_TL_Zone,FGC-FGC_TL,0.678285676750966,FGC-FGC_TL_Zone,FGC-FGC_TL
+FGC-FGC_TL,FGC-FGC_TL_Zone,0.678285676750966,FGC-FGC_TL,FGC-FGC_TL_Zone
+FGC-FGC_SRR,FGC-FGC_SRR_Zone,0.6743359662641372,FGC-FGC_SRR,FGC-FGC_SRR_Zone
+FGC-FGC_SRR_Zone,FGC-FGC_SRR,0.6743359662641372,FGC-FGC_SRR_Zone,FGC-FGC_SRR
+Physical-Weight,BIA-BIA_BMI,0.667537035822901,Physical-Weight,BIA-BIA_BMI
+BIA-BIA_BMI,Physical-Weight,0.667537035822901,BIA-BIA_BMI,Physical-Weight
+Physical-Diastolic_BP,Physical-Systolic_BP,0.6592986676659274,Physical-Diastolic_BP,Presión Arterial Sistólica
+Physical-Systolic_BP,Physical-Diastolic_BP,0.6592986676659274,Presión Arterial Sistólica,Physical-Diastolic_BP
+Physical-Season_Spring,FGC-Season_Spring,0.6545656382521917,Actividad física en primavera,FitnessGram en primavera
+FGC-Season_Spring,Physical-Season_Spring,0.6545656382521917,FitnessGram en primavera,Actividad física en primavera
+Basic_Demos-Age,Physical-Weight,0.6391107887447272,Edad del participante,Physical-Weight
+Physical-Weight,Basic_Demos-Age,0.6391107887447272,Physical-Weight,Edad del participante
+FGC-FGC_SRR,FGC-FGC_SRL_Zone,0.6261878132626468,FGC-FGC_SRR,Zona FitnessGram Shoulder Reach Left
+FGC-FGC_SRL_Zone,FGC-FGC_SRR,0.6261878132626468,Zona FitnessGram Shoulder Reach Left,FGC-FGC_SRR
+FGC-FGC_SRL,FGC-FGC_SRR_Zone,0.6244861581301625,FGC-FGC_SRL,FGC-FGC_SRR_Zone
+FGC-FGC_SRR_Zone,FGC-FGC_SRL,0.6244861581301625,FGC-FGC_SRR_Zone,FGC-FGC_SRL
+FGC-FGC_CU,FGC-FGC_PU,0.5837312092844598,FitnessGram Curl-Up (Abdominales),FitnessGram Push-Up (Flexiones)
+FGC-FGC_PU,FGC-FGC_CU,0.5837312092844598,FitnessGram Push-Up (Flexiones),FitnessGram Curl-Up (Abdominales)
+FGC-Season_Winter,BIA-Season_Winter,0.5498032316925301,FGC-Season_Winter,BIA-Season_Winter
+BIA-Season_Winter,FGC-Season_Winter,0.5498032316925301,BIA-Season_Winter,FGC-Season_Winter
+SDS-Season_Winter,Physical-Season_Winter,0.535964814476573,SDS-Season_Winter,Actividad física en invierno
+Physical-Season_Winter,SDS-Season_Winter,0.535964814476573,Actividad física en invierno,SDS-Season_Winter
+Physical-Season_Winter,BIA-Season_Winter,0.5306784754912516,Actividad física en invierno,BIA-Season_Winter
+BIA-Season_Winter,Physical-Season_Winter,0.5306784754912516,BIA-Season_Winter,Actividad física en invierno
+BIA-BIA_BMI,BIA-BIA_Frame_num,0.5218714398981625,BIA-BIA_BMI,BIA-BIA_Frame_num
+BIA-BIA_Frame_num,BIA-BIA_BMI,0.5218714398981625,BIA-BIA_Frame_num,BIA-BIA_BMI
+BIA-BIA_BMI,BIA-BIA_FMI,0.5067706130857258,BIA-BIA_BMI,BIA-BIA_FMI
+BIA-BIA_FMI,BIA-BIA_BMI,0.5067706130857258,BIA-BIA_FMI,BIA-BIA_BMI
+BIA-Season_Spring,BIA-Season_Summer,-0.5004614822516069,BIA-Season_Spring,Bioimpedancia en verano
+BIA-Season_Summer,BIA-Season_Spring,-0.5004614822516069,Bioimpedancia en verano,BIA-Season_Spring
+BIA-BIA_FMI,BIA-BIA_FFMI,-0.6443981427602176,BIA-BIA_FMI,BIA-BIA_FFMI
+BIA-BIA_FFMI,BIA-BIA_FMI,-0.6443981427602176,BIA-BIA_FFMI,BIA-BIA_FMI
+BIA-BIA_Fat,BIA-BIA_LST,-0.9450500880466612,Body Fat Mass (Masa Grasa Corporal),Lean Soft Tissue (Tejido Magro Blando)
+BIA-BIA_LST,BIA-BIA_Fat,-0.9450500880466612,Lean Soft Tissue (Tejido Magro Blando),Body Fat Mass (Masa Grasa Corporal)
+BIA-BIA_SMM,BIA-BIA_Fat,-0.9595670733596151,Skeletal Muscle Mass (Masa Muscular Esquelética),Body Fat Mass (Masa Grasa Corporal)
+BIA-BIA_Fat,BIA-BIA_SMM,-0.9595670733596151,Body Fat Mass (Masa Grasa Corporal),Skeletal Muscle Mass (Masa Muscular Esquelética)
+BIA-BIA_ICW,BIA-BIA_Fat,-0.9647401731540401,Intracellular Water (Agua Intracelular),Body Fat Mass (Masa Grasa Corporal)
+BIA-BIA_Fat,BIA-BIA_ICW,-0.9647401731540401,Body Fat Mass (Masa Grasa Corporal),Intracellular Water (Agua Intracelular)
+BIA-BIA_DEE,BIA-BIA_Fat,-0.9653166599302554,Daily Energy Expenditure (Gasto Energético Diario),Body Fat Mass (Masa Grasa Corporal)
+BIA-BIA_Fat,BIA-BIA_DEE,-0.9653166599302554,Body Fat Mass (Masa Grasa Corporal),Daily Energy Expenditure (Gasto Energético Diario)
+BIA-BIA_TBW,BIA-BIA_Fat,-0.9711314042413697,Total Body Water (Agua Corporal Total),Body Fat Mass (Masa Grasa Corporal)
+BIA-BIA_Fat,BIA-BIA_TBW,-0.9711314042413697,Body Fat Mass (Masa Grasa Corporal),Total Body Water (Agua Corporal Total)
+BIA-BIA_ECW,BIA-BIA_Fat,-0.9736042438874791,Extracellular Water (Agua Extracelular),Body Fat Mass (Masa Grasa Corporal)
+BIA-BIA_Fat,BIA-BIA_ECW,-0.9736042438874791,Body Fat Mass (Masa Grasa Corporal),Extracellular Water (Agua Extracelular)
+BIA-BIA_Fat,BIA-BIA_BMR,-0.9755406707822969,Body Fat Mass (Masa Grasa Corporal),Basal Metabolic Rate (Tasa Metabólica Basal)
+BIA-BIA_BMR,BIA-BIA_Fat,-0.9755406707822969,Basal Metabolic Rate (Tasa Metabólica Basal),Body Fat Mass (Masa Grasa Corporal)
+BIA-BIA_FFM,BIA-BIA_Fat,-0.9755407957911348,Fat-Free Mass (Masa Libre de Grasa),Body Fat Mass (Masa Grasa Corporal)
+BIA-BIA_Fat,BIA-BIA_FFM,-0.9755407957911348,Body Fat Mass (Masa Grasa Corporal),Fat-Free Mass (Masa Libre de Grasa)
+BIA-BIA_LDM,BIA-BIA_Fat,-0.9817795851439324,Lean Dry Mass (Masa Magra Seca),Body Fat Mass (Masa Grasa Corporal)
+BIA-BIA_Fat,BIA-BIA_LDM,-0.9817795851439324,Body Fat Mass (Masa Grasa Corporal),Lean Dry Mass (Masa Magra Seca)
+BIA-BIA_BMC,BIA-BIA_Fat,-0.991254805169807,Bone Mineral Content (Contenido Mineral Óseo),Body Fat Mass (Masa Grasa Corporal)
+BIA-BIA_Fat,BIA-BIA_BMC,-0.991254805169807,Body Fat Mass (Masa Grasa Corporal),Bone Mineral Content (Contenido Mineral Óseo)
