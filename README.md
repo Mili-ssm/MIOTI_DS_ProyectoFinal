@@ -3,7 +3,7 @@
 Proyecto final del Master en Data Science de MIOTI
 
 
-## Install UV
+## Instalar UV
 
 - **Windows**
 
@@ -23,17 +23,8 @@ Proyecto final del Master en Data Science de MIOTI
         pip install uv
     ```
 
+## Instalar Dependencias
 
-## Manage Libs
-
-- **Install all Libs**
-
-    ```bash
-        uv sync --dev
-    ```
-
-- **Add new Libs**
-
-    ```bash
-        uv add "lib_name1" "lib_name2" ...
-    ```
+```bash
+    uv sync
+```
